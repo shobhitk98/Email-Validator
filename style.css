@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(148, 131, 131);
+    padding: 19px;
+    color: white;
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+
+.containor span{
+    color: rgb(2, 88, 168);
+}
+input [type= "text"] {
+   min-width: 30vw;
+   border: 2px solid black;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    display: flex;
+    padding: 0 13px;
+    font:2vw ;
+}
+ul li a{
+     text-decoration:none ;
+     color: white;
+}
+ul li a:hover{
+    color: rgb(226, 119, 119);
+}
+main{
+    height: 80vh;
+    padding: 3px;
+}
+.containor
+{
+   
+    max-width: 80vw;
+    margin: auto;
+    padding: 14px;
+    align-items: center;
+    font-size: 15px;
+}
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: initial;
+}
+.containor span {
+    font-size: 22px;
+}
+#resultCont div:first-letter{
+    text-transform: uppercase;
+}
+
+footer{
+    display: flex;
+    padding: 17px;
+    background-color: rgb(148, 131, 131);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 25px;
+    filter: invert(1);
+}
+
+.btn{
+    padding: 7px;
+    border: 2px solid black;
+    color:white;
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(255, 249, 249);
+        
+    }
+    .containor{
+        font-size: 12px;
+    }
+    
+    nav {
+        background-color:rgb(148, 131, 131) ;
+        flex-direction: column;
+    };
+
+    .logo{
+       padding: 6px 0;
+    }
+    .logo span{
+        font-size: 20px 
+    };
+    .logo img {
+        width: 15px;
+        filter: invert(1);
+    }
+
+    .btn{
+        padding: 7px;
+        border: 2px solid black;
+        color:white;
+        background-color: black;
+    }
+
+    footer{
+        background-color:rgb(148, 131, 131) ;
+    }
+}
